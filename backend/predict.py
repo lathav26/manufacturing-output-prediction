@@ -4,8 +4,8 @@ import os
 
 current_dir = os.path.dirname(__file__)
 
-model_path = os.path.join(current_dir, "..", "model", "model.pkl")
-scaler_path = os.path.join(current_dir, "..", "model", "scaler.pkl")
+model_path = os.path.abspath(os.path.join(current_dir, "..", "model", "model.pkl"))
+scaler_path = os.path.abspath(os.path.join(current_dir, "..", "model", "scaler.pkl"))
 
 model = pickle.load(open(model_path, "rb"))
 scaler = pickle.load(open(scaler_path, "rb"))
