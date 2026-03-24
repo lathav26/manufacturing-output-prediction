@@ -1,3 +1,7 @@
+## 🌐 Live Demo
+
+👉https://manufacturing-output-prediction-hco9vjuskmsruzhj6e2xjy.streamlit.app/
+
 # 🏭 Manufacturing Equipment Output Prediction
 
 This project is a Machine Learning application that predicts the number of parts produced per hour in a manufacturing process using machine parameters.
